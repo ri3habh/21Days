@@ -33,9 +33,9 @@ const Welcome = ({navigation}) => {
                         <StyledFormArea>
                     <Avatar resizeMode="cover" source={require('./../assets/icon.png')}/> 
                     <Line />
-                        <StyledButton onPress={() => {navigation.navigate('Login')}}>
+                        <StyledButton onPress={() => {navigation.navigate('HabitSelection')}}>
                             <ButtonText>
-                                Logout
+                                Continue
                             </ButtonText>
                         </StyledButton>
 

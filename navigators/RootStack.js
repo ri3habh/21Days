@@ -11,6 +11,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Login from './../screens/Login';
 import Signup from './../screens/Signup';
 import Welcome from './../screens/Welcome';
+import HabitSelection from './../screens/HabitSelection'
 
 const Stack = createNativeStackNavigator();
 
@@ -34,6 +35,7 @@ const RootStack = () => {
                 <Stack.Screen name="Login" component={Login}/>
                 <Stack.Screen name="Signup" component={Signup}/>
                 <Stack.Screen options={{headerTintColor: primary}} name="Welcome" component={Welcome}/>
+                <Stack.Screen name="HabitSelection" component={HabitSelection}/>
             </Stack.Navigator>
         </NavigationContainer>
     )

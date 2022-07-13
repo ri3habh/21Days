@@ -54,6 +54,7 @@ const Login = ({navigation}) => {
                     initialValues={{email: '', password: ''}}
                     onSubmit={(values) => {
                         console.log(values);
+                        // store values in database, encrypt password
                         navigation.navigate("Welcome");
                     }}
                 >
